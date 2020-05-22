@@ -1,6 +1,6 @@
 import {
-    commitMutation,
-    graphql,
+  commitMutation,
+  graphql,
 } from 'react-relay'
 import environment from './Environment'
 
@@ -14,14 +14,14 @@ const mutation = graphql`
   `
 
 export default (id) => {
-    const variables = {
-        id: id,
-    }
-    commitMutation(
-        environment,
-        {
-            mutation,
-            variables,
-        },
-    )
+  const variables = {
+    id: id,
+  }
+  commitMutation(
+    environment,
+    {
+      mutation,
+      variables,
+    },
+  )
 }

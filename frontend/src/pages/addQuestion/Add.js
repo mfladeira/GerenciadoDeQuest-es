@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { graphql, commitMutation } from 'react-relay'
-import {useHistory } from 'react-router-dom';
+import { useHistory } from 'react-router-dom';
 import environment from '../../Environment'
 import './style.css';
 
@@ -26,12 +26,12 @@ export default function NewQuestion() {
     function handleCommit(e) {
         e.preventDefault()
         const variables = {
-            content:content,
-            answerA:answerA,
-            answerB:answerB,
-            answerC:answerC,
-            answerD:answerD,
-         }
+            content: content,
+            answerA: answerA,
+            answerB: answerB,
+            answerC: answerC,
+            answerD: answerD,
+        }
         commitMutation(
             environment,
             {

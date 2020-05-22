@@ -29,7 +29,7 @@
     color: #737380;
     line-height: 32px;
 }
-.button-add-question{
+.button-add-question {
     margin-top: 10px;
     cursor: pointer;
     width: 100%;
@@ -45,7 +45,7 @@
     font-size: 18px;
     transition: filter 0.2s;
 }
-.button-add-question:hover{
+.button-add-question:hover {
     filter: brightness(70%);
 }
 .new-question-container .content form {

@@ -3,9 +3,13 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
   "dependencies": {
     "graphql-yoga": "^1.18.3",
     "mongoose": "^5.9.15",
+    "nodemon": "^2.0.4",
     "relay-compiler": "^9.1.0"
   }
 }
