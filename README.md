@@ -1,6 +1,6 @@
 # Gerenciador de Questões
 
-A aplicação permite o gerenciamento de questões de múltiplica escolha
+A aplicação permite o gerenciamento de questões de múltipla escolha
 
 ## Requisitos
 
@@ -20,22 +20,22 @@ A aplicação permite o gerenciamento de questões de múltiplica escolha
 
 - backend 
 
-   ->docker run -d -p 27017:27017 mongo
+   `docker run -d -p 27017:27017 mongo`
    
-   ->yarn install
+   `yarn install`
 - frontend 
 
-   ->yarn install
+   `yarn install`
    
-   ->yarn relay
+   `yarn relay`
    
 ### Execução
 
 - backend 
 
-   ->node src/server.js
+   `node src/server.js`
    
 - frontend 
 
-   ->yarn start
+   `yarn start`
    
