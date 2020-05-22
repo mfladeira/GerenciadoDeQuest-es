@@ -3,7 +3,7 @@ const path = require('path')
 const resolvers = require('./resolvers')
 const mongoose = require('mongoose')
 
-mongoose.connect("mongodb://192.168.99.100:27017/mongoQuestio", {
+mongoose.connect("mongodb://localhost:27017/mongoQuestio", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useFindAndModify: false
