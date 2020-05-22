@@ -1,0 +1,20 @@
+type Mutation {
+  createQuestion(content: String, answerA: String, answerB: String, answerC: String, answerD: String): Question
+  deleteQuestion(id: ID!): Question
+  updateQuestion(id: ID!, content: String, answerA: String, answerB: String, answerC: String, answerD: String): Question
+}
+
+type Query {
+  questions: [Question!]!
+  question(id: ID!): Question
+}
+
+type Question {
+  id: ID!
+  content: String!
+  answerA: String!
+  answerB: String!
+  answerC: String!
+  answerD: String!
+}
+
