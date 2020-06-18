@@ -12,6 +12,7 @@ A aplicação permite o gerenciamento de questões de múltipla escolha
 
 - [React.js](https://reactjs.org/)
 - [Mongoose](https://mongoosejs.com/docs/connections.html)
+- [Nodemon](https://nodemon.io)
 - [GraphQL](https://graphql.org)
 - [Relay](https://relay.dev)
 - [GraphQL Yoga](https://www.npmjs.com/package/graphql-yoga)
@@ -33,7 +34,7 @@ A aplicação permite o gerenciamento de questões de múltipla escolha
 
 - backend 
 
-   `node src/server.js`
+   `yarn start`
    
 - frontend 
 
