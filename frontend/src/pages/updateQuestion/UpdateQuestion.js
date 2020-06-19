@@ -15,19 +15,15 @@ mutation UpdateQuestionQuery($id:ID!,$content: String, $answerA: String, $answer
 }}`
 
 export default function NewQuestion() {
-    const [id, setId] = useState('')
     const history = useHistory();
 
-    useEffect(() => {
-        const queryString = window.location.search;
-        const urlParams = new URLSearchParams(queryString);
-        const id = urlParams.get('id')
-        setId(id)
-    }, [])
-
+    const queryString = window.location.search;
+    const urlParams = new URLSearchParams(queryString);
+    const id = urlParams.get('id')
 
     function handleCommit(event, content, answerA, answerB, answerC, answerD) {
         event.preventDefault();
+        
         const variables = {
             id: id,
             content: content,
